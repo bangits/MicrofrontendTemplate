@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { ROUTES } from './constants';
+import { BetReportsContainer } from './pages';
 
 const App = () => {
   const [store, setStore] = useState(null);
@@ -24,12 +25,7 @@ const App = () => {
         <AtomCommonProvider initializeLanguage>
           <Router basename={ROUTES.baseUrl}>
             <Switch>
-              <Route
-                path={ROUTES.bets}
-                render={({ match: { url } }) => (
-                  <div>Bet Reports</div>
-                )}
-              />
+              <Route path={ROUTES.bets} component={BetReportsContainer} />
 
               <Redirect to={ROUTES.baseUrl + ROUTES.bets} />
             </Switch>

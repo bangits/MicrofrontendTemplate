@@ -1,0 +1,10 @@
+export enum BetStatusEnums {
+  DRAFT = 1,
+  NEW = 2,
+  WITHDRAW_CANCELED = 3,
+  WITHDRAW_ROLLBACK = 4,
+  WIN = 5,
+  LOSE = 6,
+  DEPOSIT_CANCELED = 7,
+  DEPOSIT_ROLLBACK = 8
+}

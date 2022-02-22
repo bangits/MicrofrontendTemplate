@@ -2,23 +2,7 @@
 # yarn lockfile v1
 
 
-"@atom/account-management@^1.1.7":
-  version "1.1.7"
-  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@atom/account-management/-/account-management-1.1.7.tgz#7a2ffdb3971ba129df7bbdee24c805951f611e51"
-  integrity sha1-ei/9s5cboSnfe73uJMgFlR9hHlE=
-  dependencies:
-    "@automapper/classes" "^7.0.2"
-    "@automapper/core" "^7.0.2"
-    "@reduxjs/toolkit" "^1.7.1"
-    inversify "^5.1.1"
-    react "^17.0.2"
-    react-dom "^17.0.2"
-    react-redux "^7.2.5"
-    react-router-dom "^5.3.0"
-    reflect-metadata "^0.1.13"
-    single-spa-react "^4.2.0"
-
-"@atom/authorization@^1.2.3", "@atom/authorization@^1.2.7":
+"@atom/authorization@^1.2.3", "@atom/authorization@^1.2.7", "@atom/authorization@^1.2.9":
   version "1.2.9"
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@atom/authorization/-/authorization-1.2.9.tgz#ad1cc7edd9862f7fe91f139d22488036ab3da76a"
   integrity sha1-rRzH7dmGL3/pHxOdIkiANqs9p2o=
@@ -40,11 +24,12 @@
     single-spa-react "^4.4.0"
     yup "^0.32.10"
 
-"@atom/common@^2.8.31":
-  version "2.8.31"
-  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@atom/common/-/common-2.8.31.tgz#eeebf6513d4b936763a429400b6ed58ddf4dc26f"
-  integrity sha1-7uv2UT1Lk2djpClAC27Vjd9Nwm8=
+"@atom/common@^2.8.38", "@atom/common@^2.8.40":
+  version "2.8.40"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@atom/common/-/common-2.8.40.tgz#5eaadc9152db6341c630c8ed2cc12a291de571b9"
+  integrity sha1-XqrckVLbY0HGMMjtLMEqKR3lcbk=
   dependencies:
+    "@atom/common" "^2.8.38"
     "@automapper/classes" "^7.0.2"
     "@automapper/core" "^7.0.2"
     "@microsoft/signalr" "^6.0.1"
@@ -59,17 +44,18 @@
     single-spa-react "^4.6.0"
 
 "@atom/design-system@^2.2.6":
-  version "2.3.36"
-  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@atom/design-system/-/design-system-2.3.36.tgz#2e0cacffa157ae14587df83c635a2802154a7ee6"
-  integrity sha1-Lgys/6FXrhRYffg8Y1ooAhVKfuY=
+  version "2.7.2"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@atom/design-system/-/design-system-2.7.2.tgz#2374950f40b710f333b98c69ae64505149aaeb3e"
+  integrity sha1-I3SVD0C3EPMzuYxprmRQUUmq6z4=
   dependencies:
-    "@my-ui/core" "^2.28.12"
+    "@my-ui/core" "^3.1.0"
     classnames "^2.3.1"
     react "^17.0.2"
     react-cropper "^2.1.8"
     react-dom "^17.0.2"
     react-jss "^10.8.2"
     react-sortable-hoc "^2.0.0"
+    react-transition-group "^4.4.2"
 
 "@atom/design-system@^2.4.1":
   version "2.4.1"
@@ -1521,16 +1507,17 @@
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@msgpack/msgpack/-/msgpack-2.7.1.tgz#f01954baadc502f3c82e9c3f72c740ce65eae1cc"
   integrity sha1-8BlUuq3FAvPILpw/csdAzmXq4cw=
 
-"@my-ui/core@^2.23.27", "@my-ui/core@^2.28.12":
-  version "2.28.17"
-  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@my-ui/core/-/core-2.28.17.tgz#39d7885693368c5a1741387209573ec343eb5a73"
-  integrity sha1-OdeIVpM2jFoXQThyCVc+w0PrWnM=
+"@my-ui/core@^2.23.27":
+  version "2.29.6"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@my-ui/core/-/core-2.29.6.tgz#9aa5f267943cf3ed6c09b7f04480a50b65447319"
+  integrity sha1-mqXyZ5Q88+1sCbfwRIClC2VEcxk=
   dependencies:
     "@my-ui/react-datepicker" "^1.5.0"
     "@my-ui/react-select" "1.1.6"
     "@my-ui/react-table" "1.3.0"
     "@my-ui/scrollbar" "^1.0.2"
     classnames "^2.3.1"
+    react-flip-move "^3.0.4"
     react-jss "^10.8.0"
     react-paginate "^7.1.5"
     react-transition-group "^4.4.2"
@@ -1556,6 +1543,22 @@
   version "2.28.55"
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@my-ui/core/-/core-2.28.55.tgz#e40d84f268fc91dec83894ce358307996cfe526a"
   integrity sha1-5A2E8mj8kd7IOJTONYMHmWz+Umo=
+  dependencies:
+    "@my-ui/react-datepicker" "^1.5.0"
+    "@my-ui/react-select" "1.1.6"
+    "@my-ui/react-table" "1.3.0"
+    "@my-ui/scrollbar" "^1.0.2"
+    classnames "^2.3.1"
+    react-flip-move "^3.0.4"
+    react-jss "^10.8.0"
+    react-paginate "^7.1.5"
+    react-transition-group "^4.4.2"
+    throttle-debounce "^3.0.1"
+
+"@my-ui/core@^3.1.0":
+  version "3.1.0"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@my-ui/core/-/core-3.1.0.tgz#59267197a6c5ce8eaa65f5571e5a7c2c5c0c1e88"
+  integrity sha1-WSZxl6bFzo6qZfVXHlp8LFwMHog=
   dependencies:
     "@my-ui/react-datepicker" "^1.5.0"
     "@my-ui/react-select" "1.1.6"
@@ -1643,7 +1646,17 @@
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
   integrity sha1-ZzT468EGoIYN/3+Sv5DfGT8JNdc=
 
-"@reduxjs/toolkit@^1.6.1", "@reduxjs/toolkit@^1.6.2", "@reduxjs/toolkit@^1.7.1":
+"@reduxjs/toolkit@^1.6.1":
+  version "1.7.2"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@reduxjs/toolkit/-/toolkit-1.7.2.tgz#b428aaef92582379464f9de698dbb71957eafb02"
+  integrity sha1-tCiq75JYI3lGT53mmNu3GVfq+wI=
+  dependencies:
+    immer "^9.0.7"
+    redux "^4.1.2"
+    redux-thunk "^2.4.1"
+    reselect "^4.1.5"
+
+"@reduxjs/toolkit@^1.6.2":
   version "1.7.1"
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/@reduxjs/toolkit/-/toolkit-1.7.1.tgz#994962aeb7df3c77be343dd2ad1aa48221dbaa0c"
   integrity sha1-mUlirrffPHe+ND3SrRqkgiHbqgw=
@@ -2959,6 +2972,11 @@ browser-process-hrtime@^1.0.0:
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
   integrity sha1-PJtLfXgsgSHlbxAQbYTA0P/JRiY=
 
+browserslist-config-single-spa@^1.0.1:
+  version "1.0.1"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/browserslist-config-single-spa/-/browserslist-config-single-spa-1.0.1.tgz#965f1f1606ba44671e649f410d8b8f735a327301"
+  integrity sha1-ll8fFga6RGceZJ9BDYuPc1oycwE=
+
 browserslist@^4.14.5, browserslist@^4.17.5, browserslist@^4.19.1:
   version "4.19.1"
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/browserslist/-/browserslist-4.19.1.tgz#4ac0435b35ab655896c31d53018b6dd5e9e4c9a3"
@@ -3392,9 +3410,9 @@ core-js@^2.4.0:
   integrity sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw=
 
 core-js@^3.8.3:
-  version "3.20.1"
-  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/core-js/-/core-js-3.20.1.tgz#eb1598047b7813572f1dc24b7c6a95528c99eef3"
-  integrity sha1-6xWYBHt4E1cvHcJLfGqVUoyZ7vM=
+  version "3.21.0"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/core-js/-/core-js-3.21.0.tgz#f479dbfc3dffb035a0827602dd056839a774aa71"
+  integrity sha1-9Hnb/D3/sDWggnYC3QVoOad0qnE=
 
 core-util-is@1.0.2:
   version "1.0.2"
@@ -7636,9 +7654,9 @@ prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.0,
     react-is "^16.13.1"
 
 property-expr@^2.0.4:
-  version "2.0.4"
-  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/property-expr/-/property-expr-2.0.4.tgz#37b925478e58965031bb612ec5b3260f8241e910"
-  integrity sha1-N7klR45YllAxu2EuxbMmD4JB6RA=
+  version "2.0.5"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/property-expr/-/property-expr-2.0.5.tgz#278bdb15308ae16af3e3b9640024524f4dc02cb4"
+  integrity sha1-J4vbFTCK4Wrz47lkACRST03ALLQ=
 
 proxy-addr@~2.0.7:
   version "2.0.7"
@@ -8480,10 +8498,17 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3:
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/signal-exit/-/signal-exit-3.0.6.tgz#24e630c4b0f03fea446a2bd299e62b4a6ca8d0af"
   integrity sha1-JOYwxLDwP+pEaivSmeYrSmyo0K8=
 
-single-spa-react@^4.2.0, single-spa-react@^4.4.0, single-spa-react@^4.6.0:
+single-spa-react@^4.2.0, single-spa-react@^4.6.0:
   version "4.6.0"
   resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/single-spa-react/-/single-spa-react-4.6.0.tgz#6cb170b685e5339abe0765d702ddc7b5367d49b4"
   integrity sha1-bLFwtoXlM5q+B2XXAt3HtTZ9SbQ=
+
+single-spa-react@^4.4.0:
+  version "4.6.1"
+  resolved "https://pkgs.dev.azure.com/bangitsllc/Common/_packaging/Bangits.Atom.Common/npm/registry/single-spa-react/-/single-spa-react-4.6.1.tgz#1a1fe605c0ab56d3258d06fde787f1ddef7942f2"
+  integrity sha1-Gh/mBcCrVtMljQb954fx3e95QvI=
+  dependencies:
+    browserslist-config-single-spa "^1.0.1"
 
 single-spa@^5.9.3:
   version "5.9.3"
